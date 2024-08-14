@@ -1,12 +1,14 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 int main() {
+  int x;
+  int y;
 
-  int x = cin << "Enter a number";
-  int y = ;
-
-  printf(x + y);
+  printf("Enter a number:");
+  scanf("%d", &x);
+  printf("Enter a number:");
+  scanf("%d", &y);
+  printf("%d", x + y);
 
   return 0;
 }
